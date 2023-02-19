@@ -1,0 +1,47 @@
+training:
+step 0: train loss 4.2220964431762695, val loss 4.2306
+step 500: train loss 1.827948808670044, val loss 1.9795
+step 1000: train loss 1.4373588562011719, val loss 1.6409
+step 1500: train loss 1.2761036157608032, val loss 1.5364
+step 2000: train loss 1.182935357093811, val loss 1.4961
+step 2500: train loss 1.1115370988845825, val loss 1.4910
+step 3000: train loss 1.056115984916687, val loss 1.4863
+step 3500: train loss 0.9962823390960693, val loss 1.5177
+step 4000: train loss 0.9282923936843872, val loss 1.5294
+step 4500: train loss 0.8748894333839417, val loss 1.5694
+step 4999: train loss 0.815987765789032, val loss 1.5962
+
+config:
+batch_size = 64
+block_size = 256
+max_iters = 5000
+eval_interval = 500
+learning_rate = 1e-3
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 200
+n_embed = 384
+n_head = 6
+n_layer = 6
+dropout = 0.2
+
+output:
+```
+But what present I with steel wind to come?
+For my Coriolanus commend;  farewell let:
+That wisely good figure and rival madie:
+The fair body that unsheathed be five.
+But yet how may living so green is come;
+And then revel with sorrow dead-blind pack'd my sen
+So faio, is happy life to win children!
+
+COMINIUS:
+Mole conduct, his is care off! and spiea,
+My work is much streak, that not sicks, which 'im
+Can dispersed their mate?
+
+JUCITIO:
+Is it no less, I dae.
+
+MERCUTIO:
+Why, how near you, a thing ne
+```
